@@ -1,16 +1,16 @@
 <template>
   <v-app>
     <v-main>
-      <SelectItem />
+      <FormatedDate />
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import SelectItem from "./components/Selected.vue";
+import FormatedDate from "./components/formatedDate.vue";
 @Component({
-  components: { SelectItem }
+  components: { FormatedDate }
 })
 export default class App extends Vue {}
 </script>
